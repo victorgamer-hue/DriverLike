@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Kernel">
+      <UniqueIdentifier>{5e4e97f8-b564-43f0-af89-2dd91a661b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kernel">
+      <UniqueIdentifier>{16b2cf18-5bb3-49ab-a978-14c9ee3ac2c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MiscHeaders">
+      <UniqueIdentifier>{098c295a-0eef-4176-85af-48c1aee734b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KernelFunctions">
+      <UniqueIdentifier>{64bad177-180f-43c5-adaf-1f9c30047f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KernelFunctions">
+      <UniqueIdentifier>{c2c2aea7-6bc7-497f-9829-17e9478a64a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backend">
+      <UniqueIdentifier>{04af2c55-fa07-459a-93e7-c7dcf8f9e5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backend">
+      <UniqueIdentifier>{b6715cbd-ced7-4ade-9a62-de4b6415e376}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DriverLike.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files\KernelFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionBackend.cpp">
+      <Filter>Source Files\KernelFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolHandler.cpp">
+      <Filter>Source Files\KernelFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverFunctionBackend.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="AsmBackend.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestHandler.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="AsmData.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iqvw64e.h">
+      <Filter>Header Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\MiscHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies.h">
+      <Filter>Header Files\MiscHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files\MiscHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files\KernelFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionBackend.h">
+      <Filter>Header Files\KernelFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelTypes.h">
+      <Filter>Header Files\MiscHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolHandler.h">
+      <Filter>Header Files\KernelFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverFunctionBackend.h">
+      <Filter>Header Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="AsmBackend.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestHandler.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="BackendCode.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="AsmData.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
